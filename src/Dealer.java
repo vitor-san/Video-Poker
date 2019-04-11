@@ -112,7 +112,7 @@ public class Dealer {
 		
 		//verifica par e 2 pares
 		for (int i = 0; i < 13; i++) {
-			if(frequenciaNumeros[i] >= 2) {
+			if(frequenciaNumeros[i] == 2) {
 				contador ++;
 			}
 		}
@@ -125,7 +125,7 @@ public class Dealer {
 		contador = 0;
 		//verifica trincas
 		for (int i = 0; i < 13; i++) {
-			if(frequenciaNumeros[i] >= 3) {
+			if(frequenciaNumeros[i] == 3) {
 				contador ++;
 			}
 		}
@@ -135,7 +135,7 @@ public class Dealer {
 		contador = 0;
 		//verifica quadras
 		for (int i = 0; i < 13; i++) {
-			if (frequenciaNumeros[i] >= 4) {
+			if (frequenciaNumeros[i] == 4) {
 				contador ++;
 			}
 		}

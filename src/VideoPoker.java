@@ -56,7 +56,7 @@ public class VideoPoker {
 				System.out.println("\n Carta 1\t\t Carta 2\t\t Carta 3\t\t Carta 4\t\t Carta 5");
 				System.out.println(dealer);
 				//faz a primeira troca de cartas
-				System.out.println("Digite quais cartas deseja trocar (ENTER caso nenhuma):");
+				System.out.println("Digite quais cartas deseja trocar, separadas por virgula (ENTER caso nenhuma):");
 				trocaCartas = EntradaTeclado.leString();
 				dealer.daCartas(trocaCartas);
 				
@@ -64,7 +64,7 @@ public class VideoPoker {
 				System.out.println("\n Carta 1\t\t Carta 2\t\t Carta 3\t\t Carta 4\t\t Carta 5");
 				System.out.println(dealer);
 				//faz a segunda troca de cartas
-				System.out.println("Digite quais cartas deseja trocar (ENTER caso nenhuma):");
+				System.out.println("Digite quais cartas deseja trocar, separadas por virgula (ENTER caso nenhuma):");
 				trocaCartas = EntradaTeclado.leString();
 				dealer.daCartas(trocaCartas);
 				
